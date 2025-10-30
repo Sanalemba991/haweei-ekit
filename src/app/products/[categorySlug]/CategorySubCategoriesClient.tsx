@@ -132,7 +132,7 @@ export default function CategorySubCategoriesClient({ data }: CategorySubCategor
                 </Link>
                 <span>→</span>
                 <span className="text-white font-medium">
-                  {category.name} Subcategories
+                  {category.name} 
                 </span>
               </div>
 

@@ -137,11 +137,11 @@ export default function SubCategoryProductsClient({ data }: SubCategoryProductsC
                                     href={`/products/${category.slug}`}
                                     className="hover:text-white transition-colors duration-200"
                                 >
-                                    {category.name} Subcategories
+                                    {category.name} 
                                 </Link>
                                 <span>→</span>
                                 <span className="text-white">
-                                    Explore {subcategory.name}
+                                    {subcategory.name}
                                 </span>
                             </div>
 

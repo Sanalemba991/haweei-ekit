@@ -496,14 +496,14 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
                             href={`/products/${product.category.slug}`}
                             className="hover:text-red-600 transition-colors"
                         >
-                            {product.category.name} Subcategories
+                            {product.category.name} 
                         </Link>
                         <span className="text-gray-400">→</span>
                         <Link
                             href={`/products/${product.category.slug}/${product.subcategory.slug}`}
                             className="hover:text-red-600 transition-colors"
                         >
-                             Explore {product.subcategory.name}
+                             {product.subcategory.name}
                         </Link>
                         <span className="text-gray-400">→</span>
                         <span className="text-gray-900 font-semibold">{product.name}</span>
